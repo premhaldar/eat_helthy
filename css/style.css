@@ -1,6 +1,9 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+section{
+    margin-bottom: 100px;
+}
 /* ==============================
        header css start
 ================================== */
@@ -52,4 +55,51 @@ body{
 
 /* ==============================
        header css end
+================================== */
+/* ==============================
+       about me css start
+================================== */
+#about_me{
+    display: flex;
+    background-image: url(../images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.half_width-1{
+    width: 40%;
+}
+.half_width-2{
+    width: 50%;
+    margin-left: 185px;
+    margin-top: 125px;
+}
+.half_width-2 h1{
+    font-size: 40px;
+    color: #6a5f5f;
+}
+.half_width-2 p{
+    font-size: 18px;
+    font-weight: 400;
+    width: 400px;
+    margin-bottom: 50px;
+}
+.half_width-2 a{
+    text-decoration: none;
+    background-image: linear-gradient(tomato,#dfa21dd3);
+    padding: 20px 40px;
+    color: white;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 20px;
+    box-shadow: 0px 0px 50px -17px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 50px -17px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 50px -17px rgba(0,0,0,0.75);
+}
+#about_me img{
+    height: 485px;
+    margin-left: 185px;
+    margin-top: 50px;
+}
+/* ==============================
+       about me css end
 ================================== */
