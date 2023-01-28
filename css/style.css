@@ -175,3 +175,24 @@ section{
 /* ==============================
        counter css end
 ================================== */
+/* ==============================
+       footer css start
+================================== */
+footer{
+    background: #000;
+    width: 100%;
+    padding: 50px 0 100px 0;
+    text-align: center;
+}
+footer h2{
+    color: #aaa2a2;
+}
+footer h2 span{
+    color: orange;
+}
+footer p{
+    color: #fff;
+}
+/* ==============================
+       footer css end
+================================== */
